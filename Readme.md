@@ -46,3 +46,7 @@ tag - table (Parent tag)
     td - table data
 
 attributes - border
+    rowspan - Merge two row
+    colspan - Merge two column
+    cellspacing - Space outside the border
+    cellpadding - space b/w text and border
