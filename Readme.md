@@ -50,3 +50,5 @@ attributes - border
     colspan - Merge two column
     cellspacing - Space outside the border
     cellpadding - space b/w text and border
+
+## H/W - 26th Feb (Create a 5*5 table, and add rowspan, colspan, cellspacing and cellpedding), table contain heading.
