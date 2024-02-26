@@ -36,4 +36,13 @@
 
 1. School of Desi
    1. Shubham
-2. 
+2. ABC
+   1. wsa
+
+## Table in HTML
+tag - table (Parent tag)
+    tr - Table Row
+    th - Table Heading
+    td - table data
+
+attributes - border
