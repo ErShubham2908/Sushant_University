@@ -51,4 +51,17 @@ attributes - border
     cellspacing - Space outside the border
     cellpadding - space b/w text and border
 
+## HTML has various formatting tags:
+1. <b> - makes text bold
+2. <i> - makes text italic
+3. <em> - makes text italic but with added semantics importance
+4. <big> - increases the font size of the text by one unit
+5. <small> - decreases the font size of the text by one unit
+6. <sub> - makes the text a subscript
+7. <sup> - makes the text a superscript
+8. <del> - displays as strike out text
+9. <strong> - marks the text as important
+10. <mark> - highlights the text
+11. <ins> - displays as added text
+
 ## H/W - 26th Feb (Create a 5*5 table, and add rowspan, colspan, cellspacing and cellpedding), table contain heading.
