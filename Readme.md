@@ -65,3 +65,11 @@ attributes - border
 11. <ins> - displays as added text
 
 ## H/W - 26th Feb (Create a 5*5 table, and add rowspan, colspan, cellspacing and cellpedding), table contain heading.
+
+### Date - 28th Feb '24
+
+## Form in HTML
+### Tag - form, input, lebal
+### Attributes - value, type, name, id, placeholder, etc
+
+## Form contain - Name, Email, Password, Gender with type "Radio" (Male, Female) button (Submit).
