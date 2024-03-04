@@ -21,6 +21,18 @@ Ex : `<p>This is Paragraph Content</p>`
 
 Ex : `<p>This is a Paragraph.</p>`
 
+## Fonts tag in HTML
+1. **b tag:** The < b> tag is used to make text bold. However, it doesn't carry any semantic meaning and is purely presentational.
+2. **strong tag:** Similar to < b>, the < strong> tag also makes text bold, but it carries semantic weight, indicating that the enclosed text is of strong importance.
+3. **i tag:** The < i> tag is used to italicize text. Like < b>, it doesn't carry any semantic meaning and is purely presentational.
+4. **em tag:** Similar to < i>, the < em> tag italicizes text, but it carries semantic weight, indicating emphasis.
+5. **u tag:** The < u> tag underlines text.
+6. **s tag:** The < s> tag is used for strikethrough text, indicating that the content is no longer accurate or relevant.
+7. **del tag:** Similar to < s>, the < del> tag also represents strikethrough text, but it carries semantic weight, indicating deleted text.
+8. **mark tag:** The < mark> tag highlights text with a background color, typically yellow.
+9. **sup:** The < sup> tag is used for superscript text, often used for mathematical expressions.
+10. **sub:** The < sub> tag is used for subscript text, typically used for footnotes or chemical formulas.
+
 
 ## List in HTML
 1. Ordered List 
