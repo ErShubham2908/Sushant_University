@@ -34,6 +34,7 @@ Ex : `<p>This is a Paragraph.</p>`
 10. **sub:** The < sub> tag is used for subscript text, typically used for footnotes or chemical formulas.
 
 
+
 ## List in HTML
 1. Ordered List 
    1. Number (Default)
@@ -109,3 +110,11 @@ attributes - border
 ### Attributes - value, type, name, id, placeholder, etc
 
 ## Form contain - Name, Email, Password, Gender with type "Radio" (Male, Female) button (Submit).
+
+
+### Type of Tag
+1. Block level tag
+2. inline tag 
+
+1. Semantic tag - 
+2. Non-Semantic Tag - div, span
