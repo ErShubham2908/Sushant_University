@@ -105,8 +105,41 @@ Attributes used in Form - value, type, name, id, placeholder, etc
 
 
 ### Type of Tag
-1. Block level tag
-2. inline tag 
+1. Block level tag - In HTML, block-level elements are elements that start a new line on a web page and take up the full width of their parent element.
+Ex:  < div>, < p>, < h1> to < h6>, and < ul>, etc.
+2. inline tag -  Inline elements are used within block-level elements to style or format specific parts of the content. They don’t start on a new line and only take up as much width as necessary.
+Ex: < span>, < a>, < strong>, and < em>.
 
-1. Semantic tag - 
+1. Semantic tag - A semantic element clearly describes its meaning to both the browser and the developer.
+Ex: < img>, < header>, < footer>, < article>, < table>
 2. Non-Semantic Tag - div, span
+
+# 5th March '24
+
+## Image and Multimedia
+1. **Image** -
+   1. Tag - Img tag
+   2. Attributes - src (Source), alt (Alternative), width and height
+2. **Video**
+   1. Tag - Video as parent tag, source tag
+   2. Attributes for video tag - control, muted, autoplay, loop, width and height
+   3. Attributes for source tag - src
+3. **Audio**
+4. **Iframe**
+
+
+# CSS - Cascading Style Sheet
+### Class - duplicate
+   represent by .
+   never start with number
+Ex = class = "Abc", "abc", "abc_abc" 
+class = 'abc pqr'
+
+### Id - Unique
+   represent #
+
+1. inline CSS -
+2. internal CSS
+3. External CSS
+
+inline CSS > Internal CSS > External CSS
