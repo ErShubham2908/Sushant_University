@@ -129,17 +129,23 @@ Ex: < img>, < header>, < footer>, < article>, < table>
 
 
 # CSS - Cascading Style Sheet
-### Class - duplicate
-   represent by .
-   never start with number
+### Class - 
+class should be duplicate and represent by . never start with number.
 Ex = class = "Abc", "abc", "abc_abc" 
 class = 'abc pqr'
 
-### Id - Unique
-   represent #
+### Id - 
+Id should be unique and represented by (#).
 
 1. inline CSS -
 2. internal CSS
 3. External CSS
 
 inline CSS > Internal CSS > External CSS
+
+## CSS Selector - 
+1. tag selector
+2. class selector
+3. id selector
+4. group selector
+5. Universal Selector
