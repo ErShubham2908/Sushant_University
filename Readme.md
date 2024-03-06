@@ -162,3 +162,21 @@ Id should be unique and represented by (#).
 **4. group selector** - This allows you to apply the same styles to multiple selectors. You separate the selectors with commas (,). It's useful for reducing redundancy in your CSS code.
 
 **5. Universal Selector** - This selects all elements in the HTML document. It's denoted by an asterisk (*). Be cautious when using this selector as it can significantly affect performance if not used judiciously.
+
+# 6th Mar '24
+
+## CSS Text Formatting
+
+1. color 
+2. font-size
+3. font-style
+4. font-family
+
+## Q1. Create a circle? border - white, background-color - red
+
+## Position Properties in CSS
+1. Absolute - 
+2. Relative -
+3. Static - 
+4. Sticky - 
+5. Fixed -

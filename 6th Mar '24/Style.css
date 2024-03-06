@@ -1,0 +1,67 @@
+/* .heading_one{
+    color: cyan;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+} */
+
+/* .heading_two{
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    font-size: 100px;
+    border: 10px double white;
+    border-radius: 50px ;
+} */
+
+/* span{
+    background-color: yellowgreen   ;
+} */
+
+/* .abc{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    right: 300px;
+    bottom: 0;
+} */
+.abcd{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+/* .abc{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: relative;
+    top: 100px;
+    left: 300px;
+} */
+
+.hello{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+}
+
+.world{
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 20px;
+    left: 50%;
+}
