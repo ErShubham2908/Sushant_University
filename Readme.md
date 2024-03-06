@@ -137,15 +137,28 @@ class = 'abc pqr'
 ### Id - 
 Id should be unique and represented by (#).
 
-1. inline CSS -
-2. internal CSS
-3. External CSS
+**1. Inline CSS**
++ Inline CSS involves adding styles directly to individual HTML elements.
++ This is done using the style attribute within the opening tag of the element.
++ It's like a one-time thing, good for making specific changes to a single element.
 
-inline CSS > Internal CSS > External CSS
+**2. Internal CSS** 
++ Internal CSS, also called embedded CSS, groups styles together within the < style> element placed in the < head> section of your HTML document.
++ This allows you to style multiple elements within the same webpage without cluttering up your HTML tags.
+
+**3. External CSS** 
++ External CSS offers the most organized approach. Styles are defined in a separate CSS file (with a .css extension) that's linked to your HTML documents using the < link> element in the < head> section.
++ This way, a single CSS file can control the styling of multiple HTML pages, making it ideal for maintaining a consistent look across your website.
+
+**Priority** : inline CSS > Internal CSS > External CSS
 
 ## CSS Selector - 
-1. tag selector
-2. class selector
-3. id selector
-4. group selector
-5. Universal Selector
+**1. tag selector** - This selects all elements of a specific HTML tag. For example, if you have p as a tag selector, it will select all paragraphs in your HTML document. The syntax is just the tag name, like p, div, span, etc.
+
+**2. class selector** - This selects all elements with a specific class attribute. Class selectors are denoted by a period (.) followed by the class name. Multiple elements can have the same class, and this selector helps to style them consistently.
+
+**3. id selector** - This selects a single element based on its unique ID attribute. ID selectors are denoted by a hash (#) followed by the ID name. IDs should be unique within the HTML document.
+
+**4. group selector** - This allows you to apply the same styles to multiple selectors. You separate the selectors with commas (,). It's useful for reducing redundancy in your CSS code.
+
+**5. Universal Selector** - This selects all elements in the HTML document. It's denoted by an asterisk (*). Be cautious when using this selector as it can significantly affect performance if not used judiciously.
