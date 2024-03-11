@@ -181,3 +181,24 @@ Id should be unique and represented by (#).
 3. Absolute - Here, elements are positioned relative to the nearest parent element with a non-static position (usually the viewport if not found). You can place them anywhere on the page using top, bottom, left, and right properties relative to the containing block's edges. Absolute elements create gaps in the document flow where they would have been positioned normally.
 4. Sticky - This value offers a combination of relative and fixed positioning. With position: sticky;, elements act relatively positioned until they reach a certain scroll point (defined by top or bottom), at which point they become fixed like a fixed element.
 5. Fixed - Elements with **position: fixed;** are positioned relative to the viewport, meaning they stay in place even when the page is scrolled. This is useful for creating elements that stay visible while scrolling, like navigation bars or sidebars. Similar to absolute positioning, top, bottom, left, and right properties are used for placement. Fixed elements also create gaps in the flow.
+
+
+## 11th Mar
+
+### box-Model - The combination of Content + padding + Border + Margin
+#### Box-Sizing
+
+#### padding - space b/w content and border.
+#### border - 1px solid red
+#### margin - space b/w border and outer container.
+
+## box-sizing 
+1. content-box
+2. border-box
+
+### Color -
+
+## implement position proerties in css 
+   - fixed and sticky
+
+## H/W - write the code for position absolute and relative
