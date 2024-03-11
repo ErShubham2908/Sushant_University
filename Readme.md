@@ -175,8 +175,10 @@ Id should be unique and represented by (#).
 ## Q1. Create a circle? border - white, background-color - red
 
 ## Position Properties in CSS
-1. Absolute - 
-2. Relative -
-3. Static - 
-4. Sticky - 
-5. Fixed -
+#### Position
+The position property in CSS dictates how an HTML element is positioned relative to its normal flow in the document or other elements. It essentially controls the layout of your webpage by giving you more flexibility in placing elements.
+1. Static (Default) - This is the default positioning for all elements. Elements maintain their position in the normal document flow and cannot be moved using top, bottom, left, or right properties. 
+2. Relative - With **position: relative;** elements stay in their normal position, but you can use top, bottom, left, and right properties to move them relative to their original spot. Other elements in the document flow won't be affected by the movement.
+3. Absolute - Here, elements are positioned relative to the nearest parent element with a non-static position (usually the viewport if not found). You can place them anywhere on the page using top, bottom, left, and right properties relative to the containing block's edges. Absolute elements create gaps in the document flow where they would have been positioned normally.
+4. Sticky - This value offers a combination of relative and fixed positioning. With position: sticky;, elements act relatively positioned until they reach a certain scroll point (defined by top or bottom), at which point they become fixed like a fixed element.
+5. Fixed - Elements with **position: fixed;** are positioned relative to the viewport, meaning they stay in place even when the page is scrolled. This is useful for creating elements that stay visible while scrolling, like navigation bars or sidebars. Similar to absolute positioning, top, bottom, left, and right properties are used for placement. Fixed elements also create gaps in the flow.
