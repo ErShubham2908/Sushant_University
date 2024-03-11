@@ -175,8 +175,7 @@ Id should be unique and represented by (#).
 ## Q1. Create a circle? border - white, background-color - red
 
 ## Position Properties in CSS
-#### Position
-The position property in CSS dictates how an HTML element is positioned relative to its normal flow in the document or other elements. It essentially controls the layout of your webpage by giving you more flexibility in placing elements.
+**Position**- The position property in CSS dictates how an HTML element is positioned relative to its normal flow in the document or other elements. It essentially controls the layout of your webpage by giving you more flexibility in placing elements.
 1. Static (Default) - This is the default positioning for all elements. Elements maintain their position in the normal document flow and cannot be moved using top, bottom, left, or right properties. 
 2. Relative - With **position: relative;** elements stay in their normal position, but you can use top, bottom, left, and right properties to move them relative to their original spot. Other elements in the document flow won't be affected by the movement.
 3. Absolute - Here, elements are positioned relative to the nearest parent element with a non-static position (usually the viewport if not found). You can place them anywhere on the page using top, bottom, left, and right properties relative to the containing block's edges. Absolute elements create gaps in the document flow where they would have been positioned normally.
