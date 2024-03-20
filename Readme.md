@@ -202,3 +202,12 @@ Id should be unique and represented by (#).
    - fixed and sticky
 
 ## H/W - write the code for position absolute and relative
+
+# 12th Mar
+
+### Z-index
+
+## CSS Gradient - 
+1. linear gredient - 
+2. Radial Gredient
+3. Conic Gredient
