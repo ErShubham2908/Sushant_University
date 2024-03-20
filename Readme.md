@@ -211,3 +211,14 @@ Id should be unique and represented by (#).
 1. linear gredient - 
 2. Radial Gredient
 3. Conic Gredient
+
+
+# Display - Grid
+1. **display: grid** -  This property is used to define a grid container. It enables a grid context for all direct children of the container.
+2. **grid-template-columns:** This property defines the number and size of columns in the grid. You can specify the width of each column individually or use flexible units like fr (fractional unit) to distribute the space evenly. In the example, 1fr 1fr 1fr creates three columns of equal width.
+3. **grid-template-rows:** Similar to grid-template-columns, this property defines the number and size of rows in the grid.
+4. **grid-gap:** This property sets the gap between grid items (both rows and columns). It can be specified using different units like pixels, ems, or percentages. In the example, 10px sets a gap of 10 pixels between grid items.
+5. **grid-column-start:** Specifies the start position of a grid item within the grid columns.
+6. **grid-column-end:** Specifies the end position of a grid item within the grid columns.
+7. **grid-row-start:** Specifies the start position of a grid item within the grid rows.
+8. **grid-row-end:** Specifies the end position of a grid item within the grid rows.
