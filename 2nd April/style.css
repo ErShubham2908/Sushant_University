@@ -1,0 +1,9 @@
+.parent{
+    width: 200px;
+    height: 200px;
+    border: 10px double black;
+    transform: translate(600px, 30px);
+    /* transform: rotate(45deg); */
+    /* transform: scale(.5); */
+    transform: skew(30deg, 45deg);
+}

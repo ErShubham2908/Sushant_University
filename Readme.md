@@ -213,6 +213,7 @@ Id should be unique and represented by (#).
 3. Conic Gredient
 
 
+
 # Display - Grid
 1. **display: grid** -  This property is used to define a grid container. It enables a grid context for all direct children of the container.
 2. **grid-template-columns:** This property defines the number and size of columns in the grid. You can specify the width of each column individually or use flexible units like fr (fractional unit) to distribute the space evenly. In the example, 1fr 1fr 1fr creates three columns of equal width.
@@ -222,3 +223,39 @@ Id should be unique and represented by (#).
 6. **grid-column-end:** Specifies the end position of a grid item within the grid columns.
 7. **grid-row-start:** Specifies the start position of a grid item within the grid rows.
 8. **grid-row-end:** Specifies the end position of a grid item within the grid rows.
+
+
+
+# 27th Mar 2024
+## Transition in CSS
+
+# CSS Transform
++ The transform property in CSS allows you to manipulate the positioning and visual appearance of elements by applying 2D or 3D transformations. This offers a powerful way to create dynamic and interactive effects without modifying the element's content or layout in the HTML structure.
++ The transform property in CSS allows you to manipulate the positioning and visual appearance of elements by applying 2D or 3D transformations. This offers a powerful way to create dynamic and interactive effects without modifying the element's content or layout in the HTML structure.
++ **Syntax:** transform: none | < transform-function> [< transform-function>];
+  + none: Resets any applied transformations, returning the element to its default position.
+  + < transform-function>: Individual transform functions like **translate()**, **rotate()**, **skew()**, and **scale()**, which we'll explore in detail below.
++ **Transform Functions:**
+1. **translate(x, y):**
+   + Moves an element horizontally (x-axis) and/or vertically (y-axis) relative to its original position.
+   + Positive values move the element to the right (x) and down (y).
+   + Negative values move the element to the left (x) and up (y).
+   + Units can be pixels (px), percentages (%), or viewport units (vh, vw).
+   + **Syntax:** translate(tx, ty), where tx is the horizontal translation and ty is the vertical translation.
+2. **rotate(angle):**
+   + Rotates an element clockwise around its center point.
+   + Angle can be specified in degrees (deg), radians (rad), turns (turn), or gradients (grad). Positive values rotate clockwise, negative values counter-clockwise.
+   + **Syntax:** rotate(angle), where angle is the degree of rotation.
+   + The rotation point is the center of the element by default, but you can change it using the **transform-origin** property.
+3. **skew(x-angle, y-angle):**
+   + Skews an element, tilting it along the specified axes.
+   + Positive x-angle skews to the right, negative to the left.
+   + Positive y-angle skews downwards, negative upwards.
+   + Angles are specified in degrees (deg).
+   + **Syntax:** skew(ax, ay), where ax is the horizontal skew angle and ay is the vertical skew angle.
+4. **scale(x, y):**
+   + Scales (resizes) an element proportionally or non-proportionally.
+   + A single value scales both axes equally (e.g., scale(2) doubles the size).
+   + Two values scale the width (x) and height (y) independently.
+   + Values can be percentages (%) or decimal numbers. Values less than 1 shrink the element, greater than 1 enlarge it.
+   + **Syntax:** scale(sx, sy), where sx is the horizontal scaling factor and sy is the vertical scaling factor.
