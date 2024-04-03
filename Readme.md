@@ -49,30 +49,45 @@ Ex : `<p>This is a Paragraph.</p>`
    4. Circle
 3. Description List
 
-## Ordered List
-#### Ordered List Tags
-Tag - < ol> Tag - ordered List
-Tag - < li> - List Item
-#### Ordered List Attrbutes
-type - Five type (1, A, a, I, i)
-reversed - Reverse your list
-start - Accept number as input
+# List
+- **Definition :** In HTML, a list is a way to organize and display related pieces of content in a structured format. Lists are useful for presenting information in a clear and organized manner, making it easier for users to understand the relationships between different items.
 
-## Q. Ordered List start with "z" and end with "p"
+### *Type of HTML List*
 
-### Unordered List 
-#### Unordered List Tags
-Tag - < ul> (unordered list)
-Tag - < li> (list item)
+**1. Ordered List** An ordered list is defined using the < ol> tag in HTML. Each item within the list is defined using the < li> tag. By default, ordered lists display numbers (1, 2, 3...) to indicate the order of the items.
+- Tag: ol tag (ordered list), li tag (list item)
+- Attributes:
+  - type: This attribute specifies the numbering or lettering style used for the list items. Here are the common options:
+    - type="1" (default): Numbers the list items (1, 2, 3...)
+    - type="a": Lowercase alphabetical lettering (a, b, c...)
+    - type="A": Uppercase alphabetical lettering (A, B, C...)
+    - type="i": Lowercase Roman numerals (i, ii, iii...)
+    - type="I": Uppercase Roman numerals (I, II, III...)
+  - start: This attribute allows you to define a starting number or letter for the list. For example, start="4" would begin the list with "4" instead of "1".
+  - reversed: This attribute reverses the order of the numbering or lettering in the list.
 
-#### Unordered List Attributes
-Attributes - type - circle, disc, squre, none
+**2. Unordered List:** An unordered list in HTML is used to represent a collection of items where the order doesn't necessarily matter. These lists are typically displayed with bullet points to visually group the items.
+- An unordered list is defined using the < ul> tag in HTML.
+- Each item within the list is defined using the < li> tag.
+- By default, unordered lists display bullet points (●, ◦, etc.) for each list item.
+- Tag: ul tag (unordered list), 
+- Attribute: 
+  - type="disc" (default): The standard disc bullet (●)
+  - type="circle": A circle bullet (○)
+  - type="square": A square bullet (■)
+    
+**3. Definition List:** Definition lists in HTML provide a structured way to define terms and their corresponding meanings. They are essentially like mini-glossaries embedded within your web page.
+- Tag:
+  - < dl>: This tag marks the beginning of the definition list.
+  - < dt>: This tag defines the term being explained.
+  - < dd>: This tag defines the description or definition of the term.
+- Attribute: 
+  - Definition lists are simple and don't have any specific attributes associated with their tags.
+  - The structure relies on the proper nesting of tags:
+  - The < dl> tag acts as a container for the entire definition list.
+  - Within < dl>, each term being defined is wrapped in a < dt> tag.
+  - The corresponding definition or description for the term goes inside a < dd> tag, always following the < dt> tag for the corresponding term.
 
-## Description List
-Tag -
-dl - Description list
-dt - definition term
-dd - definition description
 
 ## Q. Name of Dept. ordered List, name of Prof. (Unordered list)
 
@@ -180,7 +195,7 @@ Id should be unique and represented by (#).
 2. Relative - With **position: relative;** elements stay in their normal position, but you can use top, bottom, left, and right properties to move them relative to their original spot. Other elements in the document flow won't be affected by the movement.
 3. Absolute - Here, elements are positioned relative to the nearest parent element with a non-static position (usually the viewport if not found). You can place them anywhere on the page using top, bottom, left, and right properties relative to the containing block's edges. Absolute elements create gaps in the document flow where they would have been positioned normally.
 4. Sticky - This value offers a combination of relative and fixed positioning. With position: sticky;, elements act relatively positioned until they reach a certain scroll point (defined by top or bottom), at which point they become fixed like a fixed element.
-5. Fixed - Elements with **position: fixed;** are positioned relative to the viewport, meaning they stay in place even when the page is scrolled. This is useful for creating elements that stay visible while scrolling, like navigation bars or sidebars. Similar to absolute positioning, top, bottom, left, and right properties are used for placement. Fixed elements also create gaps in the flow.
+5. **Fixed** - Elements with **position: fixed;** are positioned relative to the viewport, meaning they stay in place even when the page is scrolled. This is useful for creating elements that stay visible while scrolling, like navigation bars or sidebars. Similar to absolute positioning, top, bottom, left, and right properties are used for placement. Fixed elements also create gaps in the flow.
 
 
 ## 11th Mar
@@ -202,8 +217,6 @@ Id should be unique and represented by (#).
    - fixed and sticky
 
 ## H/W - write the code for position absolute and relative
-
-# 12th Mar
 
 # Z-index
 In Cascading Style Sheets (CSS), the **z-index** property controls the stacking order of positioned elements that overlap on a web page. It acts like a layer system, where elements with higher z-index values appear in front of elements with lower values.
