@@ -205,7 +205,15 @@ Id should be unique and represented by (#).
 
 # 12th Mar
 
-### Z-index
+# Z-index
+In Cascading Style Sheets (CSS), the **z-index** property controls the stacking order of positioned elements that overlap on a web page. It acts like a layer system, where elements with higher z-index values appear in front of elements with lower values.
+
+**Key Points about z-index:**
++ **Affects Positioned Elements Only:** z-index only works on elements with positioning set to absolute, relative, fixed, or sticky. The default static positioning doesn't participate in the z-index stacking order.
++ **Higher Value on Top:** Elements with higher z-index values are displayed on top of elements with lower values. Think of it as a layer cake, with higher layers appearing in front.
++ **Integers or auto:** z-index values can be positive or negative integers. Positive values stack elements on top, while negative values push them behind other elements in the stacking context. The default value is auto, which is determined by the element's position in the HTML code (elements positioned later in the code appear on top).
++ **Stacking Context:** The stacking order applies within a specific stacking context, which is usually the entire document viewport. However, certain elements can create their own stacking contexts (e.g., elements with opacity: less than 1, mix-blend-mode: not normal, or transform: translateZ()).
++ **Specificity and Inheritance:** If multiple elements have the same z-index, the element with higher specificity in the CSS rules will be stacked on top. z-index is not inherited by child elements.
 
 ## CSS Gradient - 
 1. linear gredient - 
