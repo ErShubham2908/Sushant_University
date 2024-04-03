@@ -98,6 +98,7 @@ Ex : `<p>This is a Paragraph.</p>`
 - **< td>:** Defines a table data cell. Used for regular table content.
 - **< th>:** Defines a table header cell. Typically used for column labels and styled differently (often bold and centered).
 
+## H/W - 26th Feb (Create a 5*5 table, and add rowspan, colspan, cellspacing and cellpedding), table contain heading.
 
 # FORM
 **Form:** HTML forms are used to collect user input. They are defined using the < form> tag.
@@ -120,28 +121,18 @@ Ex : `<p>This is a Paragraph.</p>`
     - **autocomplete:** Specifies whether the browser should automatically complete the input value based on the user's input history.
     - **autofocus:** Specifies that the input field should automatically get focus when the page loads.
 
-## H/W - 26th Feb (Create a 5*5 table, and add rowspan, colspan, cellspacing and cellpedding), table contain heading.
-
-### Date - 28th Feb '24
-
-## Form in HTML
-Tag used in Form - form, input, lebal
-Attributes used in Form - value, type, name, id, placeholder, etc
-
-## Form contain - Name, Email, Password, Gender with type "Radio" (Male, Female) button (Submit).
+**Q.** Form contain - Name, Email, Password, Gender with type "Radio" (Male, Female) button (Submit).
 
 
 ### Type of Tag
-1. Block level tag - In HTML, block-level elements are elements that start a new line on a web page and take up the full width of their parent element.
+1. **Block level tag** - In HTML, block-level elements are elements that start a new line on a web page and take up the full width of their parent element.
 Ex:  < div>, < p>, < h1> to < h6>, and < ul>, etc.
-2. inline tag -  Inline elements are used within block-level elements to style or format specific parts of the content. They don’t start on a new line and only take up as much width as necessary.
+2. **inline tag** -  Inline elements are used within block-level elements to style or format specific parts of the content. They don’t start on a new line and only take up as much width as necessary.
 Ex: < span>, < a>, < strong>, and < em>.
 
-1. Semantic tag - A semantic element clearly describes its meaning to both the browser and the developer.
+1. **Semantic tag** - A semantic element clearly describes its meaning to both the browser and the developer.
 Ex: < img>, < header>, < footer>, < article>, < table>
-2. Non-Semantic Tag - div, span
-
-# 5th March '24
+2. **Non-Semantic Tag** - div, span
 
 ## Image and Multimedia
 1. **Image** -
