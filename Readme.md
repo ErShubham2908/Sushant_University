@@ -81,17 +81,44 @@ Ex : `<p>This is a Paragraph.</p>`
 2. ABC
    1. wsa
 
-## Table in HTML
-tag - table (Parent tag)
-tr - Table Row
-th - Table Heading
-td - table data
+# Table
+**Table:** Tables are a fundamental way to structure and present data in a two-dimensional format (rows and columns) on web pages. They are ideal for displaying information that has clear relationships between different categories.
+- Tag: < table>< /table>
+- Attributes: 
+  - **border:** Sets the width of the table's border (in pixels).
+  - **cellpadding:** Defines the space between the cell content and its border (in pixels).
+  - **cellspacing:** Defines the space between adjacent cells (in pixels).
+  - **collapse:** Specifies how adjacent table borders should be rendered (e.g., collapse for merging borders).
+  - **width:** Sets the width of the table (can be a percentage or pixel value).
+  - **align:** Aligns the table within its container (e.g., left, center, right).
 
-attributes - border
-rowspan - Merge two row
-colspan - Merge two column
-cellspacing - Space outside the border
-cellpadding - space b/w text and border
+**Table Structure**
+- **< table>:** Defines the beginning and end of the table.
+- **< tr>:** Defines a table row. Each row contains cells.
+- **< td>:** Defines a table data cell. Used for regular table content.
+- **< th>:** Defines a table header cell. Typically used for column labels and styled differently (often bold and centered).
+
+
+# FORM
+**Form:** HTML forms are used to collect user input. They are defined using the < form> tag.
+- **Tag:**
+  - **Form tag:** Forms are created using the < form> element, which acts as a container for various form elements.
+  - **Label tag:** The **< label> tag** defines a label for an < input>, < select>, < textarea>, or < button> element. It improves accessibility by providing a clickable area that focuses its associated form element when clicked.
+  - **Attribute for label:** 
+    - **for:** Specifies which form element a label is bound to. It should match the id attribute of the associated form element.
+  - **Input tag:** The < input> tag is used to create input fields within a form.
+  - **Attribute for input:**
+    - **type:** Specifies the type of input field. Common values include "text", "password", "checkbox", "radio", "submit", etc.
+    - **name:** Specifies the name of the input field. This is used to identify the field in the form submission.
+    - **value:** Specifies the initial value of the input field.
+    - **placeholder:** Specifies a short hint that describes the expected value of the input field (displayed when the field is empty).
+    - **required:** Specifies that the input field must be filled out before submitting the form.
+    - **disabled:** Specifies that the input field is disabled and cannot be edited.
+    - **readonly:** Specifies that the input field is read-only (cannot be edited by the user).
+    - **maxlength:** Specifies the maximum number of characters allowed in the input field.
+    - **size:** Specifies the width of the input field, in characters.
+    - **autocomplete:** Specifies whether the browser should automatically complete the input value based on the user's input history.
+    - **autofocus:** Specifies that the input field should automatically get focus when the page loads.
 
 ## H/W - 26th Feb (Create a 5*5 table, and add rowspan, colspan, cellspacing and cellpedding), table contain heading.
 
