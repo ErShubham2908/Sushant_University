@@ -33,26 +33,11 @@ Ex : `<p>This is a Paragraph.</p>`
 9. **sup:** The < sup> tag is used for superscript text, often used for mathematical expressions.
 10. **sub:** The < sub> tag is used for subscript text, typically used for footnotes or chemical formulas.
 
+# HTML List
 
-
-## List in HTML
-1. Ordered List 
-   1. Number (Default)
-   2. Cap Alpha
-   3. Small Alpha
-   4. Cap Roman
-   5. Small Roman
-2. Unordered List
-   1. None
-   2. Disc
-   3. Squre
-   4. Circle
-3. Description List
-
-# List
 - **Definition :** In HTML, a list is a way to organize and display related pieces of content in a structured format. Lists are useful for presenting information in a clear and organized manner, making it easier for users to understand the relationships between different items.
 
-### *Type of HTML List*
+**Type of HTML List**
 
 **1. Ordered List** An ordered list is defined using the < ol> tag in HTML. Each item within the list is defined using the < li> tag. By default, ordered lists display numbers (1, 2, 3...) to indicate the order of the items.
 - Tag: ol tag (ordered list), li tag (list item)
