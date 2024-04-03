@@ -134,16 +134,46 @@ Ex: < span>, < a>, < strong>, and < em>.
 Ex: < img>, < header>, < footer>, < article>, < table>
 2. **Non-Semantic Tag** - div, span
 
-## Image and Multimedia
-1. **Image** -
-   1. Tag - Img tag
-   2. Attributes - src (Source), alt (Alternative), width and height
-2. **Video**
-   1. Tag - Video as parent tag, source tag
-   2. Attributes for video tag - control, muted, autoplay, loop, width and height
-   3. Attributes for source tag - src
-3. **Audio**
-4. **Iframe**
+# Image and Multimedia
+**1. Image:** Used to embed images into a web page.
+- tag: < img /> tag
+- Attributes: 
+  - src: (Required) Specifies the path to the image file.
+  - alt: (Highly recommended) Provides alternative text for the image, essential for accessibility and SEO.
+  - width: Sets the width of the image in pixels.
+  - height: Sets the height of the image in pixels.
+
+**2. Video:** Used to embed videos into a web page. 
+- tag: video tag (Parent tag), source tag
+- Attributes: 
+  - src: (Required) Specifies the path to the video file.
+  - controls: Adds playback controls (play, pause, volume, etc.).
+  - autoplay: Starts playback automatically (use with caution for accessibility).
+  - loop: Plays the video in a loop.
+  - muted: Mutes the video by default.
+  - type: Specifies the MIME type of the video file (optional, browser usually infers).
+  - poster:  Sets an image to display before the video plays.
+  - width: Sets the width of the video player in pixels.
+  - height:  Sets the height of the video player in pixels.
+
+**3. iframe:** Used to embed content from another website (like a YouTube video) directly into your web page.
+- tag: iframe 
+- attributes: 
+  - src: (Required) Specifies the URL of the content to embed.
+  - frameborder: Controls the display of a border around the iframe (0 for no border).
+  - scrolling: Controls whether scrollbars appear in the iframe (e.g., "auto", "yes", or "no").
+  - allowfullscreen: Enables fullscreen mode for the embedded content (if applicable).
+  - width: Sets the width of the iframe in pixels.
+  - height: Sets the height of the iframe in pixels.
+**4. Audio:** Used to embed audio files into a web page.
+- tag: audio tag < audio> & source tag < source/>.
+- Attributes:
+  - src: (Required) Specifies the path to the audio file.
+  - controls: Adds playback controls (play, pause, volume, etc.).
+  - autoplay: Starts playback automatically (use with caution for accessibility).
+  - loop: Plays the audio in a loop.
+  - muted: Mutes the audio by default.
+  - type: Specifies the MIME type of the audio file (optional, browser usually infers).
 
 
 # CSS - Cascading Style Sheet
